@@ -2,6 +2,8 @@
 
 # Cloud 9 workspace for Ruby and Sinatra 
 
+* Sign up for [Cloud9](https://c9.io/)
+
 * Create a BLANK workspace (Not Ruby and Not Rails)
 
 * Name the workspace ``hello-sinatra``
@@ -10,9 +12,11 @@
 
 * In the terminal tab at the bottom
 
-    $ gem install bundler
+```
+$ gem install bundler
 
-    $ bundle init
+$ bundle init
+```
 
 * edit Gemfile to add sinatra
 
@@ -34,14 +38,20 @@ get '/' do
 end
 ```
 * Run the app
+
+```
     $ ruby app.rb -p $PORT -o $IP 
+```
 
 * Open the browser to the link in your terminal which will be something like
 
-    https://hello-sinatra-stujo.c9users.io/
+```
+https://hello-sinatra-stujo.c9users.io/
+```
 
 * The link is made with this format:
 
+```
     https://[YOUR APP NAME]-[YOUR USER NAME].c9users.io/
-
+```
 
