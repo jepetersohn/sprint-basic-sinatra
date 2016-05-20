@@ -1,0 +1,14 @@
+/*
+This stylesheet is linked in hello.erb.
+Any styles you declare here will apply to the HTML there.
+You can link this or other stylesheets to your own HTML.
+*/
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
